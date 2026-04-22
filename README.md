@@ -21,38 +21,38 @@
 ##  Project Structure
 
 
-datamining_midterm_project
-├── data/
-biosignal_raw_long_simulated.csv # 원본 데이터 (long format)
-biosignal_wide_before_cleaning.csv # pivot 변환 데이터
-biosignal_processed_wide.csv # 전처리 완료 데이터
-analysis_summary.json # 최종 결과 요약
-preprocessing_summary.csv # 전처리 요약
-descriptive_statistics.csv # 통계 정보
-raw_sample_20rows.csv # 샘플 데이터
-data_dictionary.csv # 컬럼 설명
+- datamining_midterm_project
+- ├── data/
+- biosignal_raw_long_simulated.csv # 원본 데이터 (long format)
+- biosignal_wide_before_cleaning.csv # pivot 변환 데이터
+- biosignal_processed_wide.csv # 전처리 완료 데이터
+- analysis_summary.json # 최종 결과 요약
+- preprocessing_summary.csv # 전처리 요약
+- descriptive_statistics.csv # 통계 정보
+- raw_sample_20rows.csv # 샘플 데이터
+- data_dictionary.csv # 컬럼 설명
+- 
+- ├── figures/ # 시각화 결과
+- fig_01_preprocessing_funnel.png
+- fig_02_status_distribution.png
+- fig_03_timeline_72h.png
+- fig_04_distributions.png
+- fig_05_correlation_scatter.png
+- fig_06_drop_event_window.png
+- fig_07_hourly_pattern.png
+- src/
+- analyze_biosignal.py # 전처리 + EDA 핵심 코드
+- analyze_biosignal_full_presentation.ipynb # 발표용 노트북
+- app_streamlit.py # Streamlit 대시보드
+- build_report.py # 보고서 자동 생성
+- extract_queries.sql # DB 조회 SQL 예시
 
-├── figures/ # 시각화 결과
-fig_01_preprocessing_funnel.png
-fig_02_status_distribution.png
-fig_03_timeline_72h.png
-fig_04_distributions.png
-fig_05_correlation_scatter.png
-fig_06_drop_event_window.png
-fig_07_hourly_pattern.png
-src/
- analyze_biosignal.py # 전처리 + EDA 핵심 코드
- analyze_biosignal_full_presentation.ipynb # 발표용 노트북
- app_streamlit.py # Streamlit 대시보드
- build_report.py # 보고서 자동 생성
- extract_queries.sql # DB 조회 SQL 예시
+- ├── docs/
+- datamining_midterm_report.docx
+- datamining_midterm_report.pdf
+- datamining_midterm_presentation.pptx
 
-├── docs/
-datamining_midterm_report.docx
-datamining_midterm_report.pdf
-datamining_midterm_presentation.pptx
-
-└── README.md
+- └── README.md
 
 
 ---
