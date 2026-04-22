@@ -1,0 +1,5 @@
+﻿data_category,name,description
+14211,Status,"0=absent, 1=present"
+14215,Drop,Fall event flag (0/1)
+14221,Breath,Respiratory rate (rpm)
+14223,Heart,Heart rate (bpm)

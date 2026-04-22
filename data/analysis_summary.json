@@ -1,0 +1,23 @@
+{
+  "raw_rows": 80600,
+  "wide_rows_before_cleaning": 20160,
+  "analysis_rows_after_cleaning": 17960,
+  "duplicate_raw_rows": 240,
+  "missing_heart_rows": 81,
+  "missing_breath_rows": 79,
+  "heart_outlier_rows": 30,
+  "breath_outlier_rows": 25,
+  "present_minutes_before_cleaning": 18240,
+  "absent_minutes_before_cleaning": 1920,
+  "drop_events_after_cleaning": 8,
+  "risk_rows_after_cleaning": 3193,
+  "heart_breath_correlation": 0.867,
+  "heart_mean": 72.14,
+  "heart_std": 11.08,
+  "heart_min": 51.8,
+  "heart_max": 117.2,
+  "breath_mean": 15.15,
+  "breath_std": 3.28,
+  "breath_min": 9.1,
+  "breath_max": 29.3
+}

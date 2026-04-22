@@ -1,0 +1,6 @@
+﻿step,rows,note
+Raw long rows,80600,Includes duplicates and partial missing rows
+After pivot,20160,One row per timestamp
+After missing removal,20000,Removed partial timestamps
+After presence filter,18095,Removed absent periods
+Final cleaned rows,17960,"Heart 45-130, Breath 8-30"
