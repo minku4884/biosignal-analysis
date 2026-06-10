@@ -1,0 +1,21 @@
+{
+  "fixed_thresholds": {
+    "heart_critical_high": 120,
+    "heart_critical_low": 40,
+    "heart_warning_high": 90,
+    "heart_warning_low": 52,
+    "breath_critical_high": 30,
+    "breath_critical_low": 8,
+    "breath_warning_high": 19,
+    "breath_warning_low": 10,
+    "heart_delta_sudden": 12,
+    "breath_delta_sudden": 4
+  },
+  "personalized_thresholds": {
+    "warning_z": 2.5,
+    "danger_z": 3.5,
+    "heart_delta_sudden": 18,
+    "breath_delta_sudden": 5
+  },
+  "mews_inspired_note": "This is a MEWS-inspired radar biosignal threshold design, not a full clinical MEWS score. Blood pressure, temperature and AVPU are not available in the device export."
+}

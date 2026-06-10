@@ -1,0 +1,14 @@
+﻿metric,value
+input_files,1.0
+raw_rows_after_pivot,193090.0
+valid_analysis_rows,158541.0
+device_count,6.0
+patient_count,6.0
+heart_breath_corr_overall,0.101
+drop_events,44.0
+fixed_risk_rows,33225.0
+fixed_risk_rate,0.2096
+personalized_risk_rows,7380.0
+personalized_risk_rate,0.0465
+iforest_anomaly_rate,0.045
+ocsvm_anomaly_rate,0.05

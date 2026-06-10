@@ -1,0 +1,155 @@
+{
+  "standard_columns": {
+    "datetime": [
+      "datetime",
+      "date_time",
+      "time",
+      "created_at",
+      "measured_at",
+      "측정시간",
+      "시간",
+      "일시"
+    ],
+    "timestamp": [
+      "timestamp",
+      "time_stamp",
+      "unix_time",
+      "unix_timestamp",
+      "ts"
+    ],
+    "device_id": [
+      "device_id",
+      "deviceId",
+      "deviceID",
+      "DeviceID",
+      "DEVICE_ID",
+      "uid",
+      "UID",
+      "기기ID",
+      "기기아이디",
+      "장치ID"
+    ],
+    "patient_id": [
+      "patient_id",
+      "patientId",
+      "subject_id",
+      "subjectId",
+      "user_id",
+      "userId",
+      "환자ID",
+      "대상자ID"
+    ],
+    "room_id": [
+      "room_id",
+      "roomId",
+      "room",
+      "room_no",
+      "ward_room",
+      "병실",
+      "호실"
+    ],
+    "data_category": [
+      "data_category",
+      "category",
+      "category_code",
+      "dataCategory",
+      "DataCategory",
+      "type",
+      "code"
+    ],
+    "value": [
+      "avg_value",
+      "average_value",
+      "avg",
+      "mean",
+      "value",
+      "data_value",
+      "measured_value"
+    ],
+    "Heart": [
+      "Heart",
+      "heart",
+      "heart_rate",
+      "heartrate",
+      "hr",
+      "HR",
+      "bpm",
+      "BPM",
+      "심박",
+      "심박수"
+    ],
+    "Breath": [
+      "Breath",
+      "breath",
+      "breath_rate",
+      "breathrate",
+      "respiration",
+      "respiration_rate",
+      "br",
+      "BR",
+      "rpm",
+      "RPM",
+      "호흡",
+      "호흡수"
+    ],
+    "Drop": [
+      "Drop",
+      "drop",
+      "fall",
+      "Fall",
+      "fall_detection",
+      "fall_flag",
+      "낙상"
+    ],
+    "Status": [
+      "Status",
+      "status",
+      "presence",
+      "present",
+      "is_present",
+      "occupancy",
+      "재실",
+      "상태"
+    ]
+  },
+  "category_code_map": {
+    "14223": "Heart",
+    "14221": "Breath",
+    "14215": "Drop",
+    "14211": "Status",
+
+    "63": "Heart",
+    "64": "Breath",
+    "65": "Drop",
+    "66": "Status",
+
+    "heart": "Heart",
+    "Heart": "Heart",
+    "HEART": "Heart",
+    "bpm": "Heart",
+    "BPM": "Heart",
+    "심박": "Heart",
+    "심박수": "Heart",
+
+    "breath": "Breath",
+    "Breath": "Breath",
+    "BREATH": "Breath",
+    "rpm": "Breath",
+    "RPM": "Breath",
+    "호흡": "Breath",
+    "호흡수": "Breath",
+
+    "drop": "Drop",
+    "Drop": "Drop",
+    "FALL": "Drop",
+    "fall": "Drop",
+    "낙상": "Drop",
+
+    "status": "Status",
+    "Status": "Status",
+    "STATUS": "Status",
+    "presence": "Status",
+    "재실": "Status",
+    "상태": "Status"
+  }
+}

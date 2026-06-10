@@ -1,0 +1,40 @@
+{
+  "project_name": "radar_biosignal_multidevice_detection",
+  "timezone": "Asia/Seoul",
+  "input_dir": "data/raw_devices",
+  "output_dir": "data/processed",
+  "figure_dir": "figures",
+  "model_dir": "models",
+  "valid_ranges": {
+    "Heart": [
+      35,
+      180
+    ],
+    "Breath": [
+      5,
+      45
+    ],
+    "Status": [
+      0,
+      1
+    ],
+    "Drop": [
+      0,
+      1
+    ]
+  },
+  "feature_windows": {
+    "rolling_points": [
+      3,
+      6,
+      12
+    ],
+    "baseline_min_rows": 50
+  },
+  "modeling": {
+    "isolation_forest_contamination": 0.045,
+    "oneclass_svm_nu": 0.05,
+    "random_seed": 42
+  },
+  "synthetic_demo_note": "Demo data is realistic synthetic data for pipeline validation, not clinical ground truth."
+}

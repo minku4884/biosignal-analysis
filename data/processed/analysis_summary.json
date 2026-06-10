@@ -1,0 +1,45 @@
+{
+  "raw_rows": 193090,
+  "missing_heart_rows": 0,
+  "missing_breath_rows": 0,
+  "heart_outlier_rows": 34280,
+  "breath_outlier_rows": 31231,
+  "status_presence_mode": "status_1_is_present",
+  "valid_analysis_rows": 158541.0,
+  "device_count": 6.0,
+  "patient_count": 6.0,
+  "drop_events": 44.0,
+  "input_files": 1.0,
+  "raw_rows_after_pivot": 193090.0,
+  "heart_breath_corr_overall": 0.101,
+  "fixed_risk_rows": 33225.0,
+  "fixed_risk_rate": 0.2096,
+  "personalized_risk_rows": 7380.0,
+  "personalized_risk_rate": 0.0465,
+  "iforest_anomaly_rate": 0.045,
+  "ocsvm_anomaly_rate": 0.05,
+  "model_summary": [
+    {
+      "model": "Isolation Forest",
+      "anomaly_rows": 7135,
+      "anomaly_rate": 0.045,
+      "rule_overlap_precision_proxy": 0.6064,
+      "rule_coverage_recall_proxy": 0.5863,
+      "proxy_f1": 0.5962,
+      "alert_episodes": 2517,
+      "score_column": "iforest_score",
+      "note": "Proxy metrics use personalized threshold risk as a reference, not clinical ground truth."
+    },
+    {
+      "model": "One-Class SVM",
+      "anomaly_rows": 7929,
+      "anomaly_rate": 0.05,
+      "rule_overlap_precision_proxy": 0.5379,
+      "rule_coverage_recall_proxy": 0.5779,
+      "proxy_f1": 0.5572,
+      "alert_episodes": 3711,
+      "score_column": "ocsvm_score",
+      "note": "Proxy metrics use personalized threshold risk as a reference, not clinical ground truth."
+    }
+  ]
+}

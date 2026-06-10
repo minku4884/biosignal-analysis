@@ -1,0 +1,26 @@
+﻿column,description
+datetime,측정 시각
+timestamp,Unix timestamp
+device_id,Device identifier
+patient_id,Patient/subject identifier or derived id
+room_id,Room/bed identifier
+Heart,Heart rate bpm
+Breath,Respiratory rate rpm
+Drop,Drop/fall event flag
+Status,Presence/status flag
+valid_vitals,Heart/Breath usable and patient present
+heart_roll3,3-sample rolling median heart
+breath_roll3,3-sample rolling median breath
+heart_delta,Heart difference from previous row
+breath_delta,Breath difference from previous row
+heart_baseline,Personal baseline median heart
+breath_baseline,Personal baseline median breath
+heart_robust_z,Robust z-score vs personal baseline
+breath_robust_z,Robust z-score vs personal baseline
+fixed_risk_level,Normal/Warning/Danger by fixed threshold
+personalized_risk_level,Normal/Warning/Danger by personalized threshold
+risk_reason,Semicolon-separated risk reasons
+iforest_anomaly,Isolation Forest anomaly flag
+iforest_score,Isolation Forest anomaly score
+ocsvm_anomaly,One-Class SVM anomaly flag
+ocsvm_score,One-Class SVM anomaly score
