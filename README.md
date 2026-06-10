@@ -31,7 +31,6 @@ src/                       # 데이터 생성, import, 분석, dashboard 코드
 
 ```bash
 pip install -r requirements.txt
-python src/generate_realistic_synthetic_data.py
 python src/run_pipeline.py
 streamlit run src/app_streamlit.py
 ```
@@ -67,11 +66,6 @@ Category code:
 | 14221 | Breath |
 | 14223 | Heart |
 
-### Wide format - 엑셀에서 직접 보기 편한 방식
-
-| datetime | device_id | patient_id | Heart | Breath | Drop | Status |
-|---|---|---|---:|---:|---:|---:|
-| 2026-03-01 00:00 | D701 | P001 | 72.8 | 14.5 | 0 | 1 |
 
 ## 제출용 포인트
 
